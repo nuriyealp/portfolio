@@ -60,10 +60,16 @@ section {
   display: flex;
 }
 
-#skills-list li {
+.skills-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.skills-list li {
   background-color: #89CE94;
   list-style-type: none;
-  margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 15px;
   padding: 10px;
   border: 1px solid #820263;

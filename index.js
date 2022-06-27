@@ -5,7 +5,7 @@ const copyright = document.createElement('p');
 copyright.innerHTML = `&copy; Nuriye ${thisYear}`;
 footer.appendChild(copyright);
 
-const skills = ['HTML','CSS','JavaScript','Git','GitHub'];
+const skills = ['JavaScript','React','HTML','CSS','Git','GitHub'];
 const skillsSection = document.getElementById('skills');
 const skillList = skillsSection.querySelector('ul');
 for(let i=0; i<skills.length; i++){
