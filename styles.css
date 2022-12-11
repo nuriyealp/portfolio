@@ -16,7 +16,7 @@ section {
 
 footer {
   background-color: #1c1d25;
-  height: 500px;
+  height: 250px;
   color: white;
   text-align: center;
   padding: 80px;
@@ -30,6 +30,7 @@ nav {
 ul {
   display: flex;
   list-style-type: none;
+  padding-left: 0;
   width: 60%;
   justify-content: space-around;
   font-size: 30px;
@@ -60,7 +61,13 @@ p {
 
 .subtext {
   font-size: 15px;
-  font-weight: 300px;
+  padding: 0 12px;
+  height: 200px;
+}
+
+.subtext-link {
+  font-size: 18px;
+  padding: 0 12px 12px;
 }
 
 .hero-area {
@@ -134,7 +141,6 @@ p {
 
 .project-card {
   width: 300px;
-  height: 500px;
   box-shadow: 3px 3px 8px grey;
   margin: 10px;
 }
@@ -147,7 +153,7 @@ p {
 .project-image {
   margin-top: 25px;
   width: 250px;
-  border-radius: 125px;
+  height: 250px;
 }
 
 hr {
